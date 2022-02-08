@@ -4,10 +4,10 @@ This module implements `django-autocomplete-light` module for lookup widget, aut
 Further details on the module can be found here: https://django-autocomplete-light.readthedocs.io/en/master/install.html
 
 # Installation
-`Install django-autocomplete-light`
-    pip install django-autocomplete-light
-`Install latest meddra module`
-    pip install git+https://github.com/botswana-harvard/edc-meddra.git@develop#egg=edc_meddra
+Install django-autocomplete-light
+    `pip install django-autocomplete-light`
+Install latest meddra module
+    `pip install git+https://github.com/botswana-harvard/edc-meddra.git@develop#egg=edc_meddra`
 
 # Configuration
 Add `dal`, `dal_select2` and `edc_meddra.apps.AppConfig` to INSTALLED_APPS and medDRA client configurations in your Django project settings.
@@ -26,7 +26,7 @@ Add `dal`, `dal_select2` and `edc_meddra.apps.AppConfig` to INSTALLED_APPS and m
           'edc_odk.apps.AppConfig',
         )
 
-        ODK_CONFIGURATION = {
+        MEDDRA_CONFIGURATION = {
               'OPTIONS': {
                     'read_default_file': '/etc/your_app_name/meddra.conf',
               },
