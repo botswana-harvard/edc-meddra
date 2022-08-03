@@ -10,7 +10,7 @@ class MedDRAAPIConnect:
     """ Connect to the medDRA dictionary, search & details on medDRA codes.
     """
 
-    base_api_url = 'https://mapi.meddra.org/api/%(endpoint)s'
+    base_api_url = 'https://mapisbx.meddra.org/api/%(endpoint)s'
     token_url = 'https://mid.meddra.org/connect/token'
 
     def __init__(self):
